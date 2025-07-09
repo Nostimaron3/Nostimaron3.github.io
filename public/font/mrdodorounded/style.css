@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mr Dodo';
+    src: local('Mr Dodo Rounded Regular'), local('Mr-Dodo-Rounded-Regular'),
+        url('MrDodoRounded-Regular.woff2') format('woff2'),
+        url('MrDodoRounded-Regular.woff') format('woff'),
+        url('MrDodoRounded-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
