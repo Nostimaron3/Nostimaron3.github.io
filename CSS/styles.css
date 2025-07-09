@@ -8,7 +8,22 @@
 
 
 .text-dodo{
-    font-family: 'Mr Dodo';
+    font-family: 'Mr DodoM';
+}
+
+.text-dodoR{
+    font-family: 'Mr DodoR';
+    color : #393939;
+}
+
+.text-queaker{
+    font-family: 'Quaker';
+    color: #ee0909;
+     text-shadow:
+        0.3px 0.3px 0 #ee0909,
+       -0.3px 0.3px 0 #ee0909,
+        0.3px -0.3px 0 #ee0909,
+       -0.3px -0.3px 0 #ee0909;
 }
 
 body {
@@ -119,7 +134,7 @@ body {
 }
 
 .nav__links {
-  color: #393939; /* negro o ajusta según contraste */
+  /* negro o ajusta según contraste */
   text-decoration: none;
   font-weight: 500;
   padding: 8px 16px;
@@ -127,7 +142,6 @@ body {
   border-radius: 19px;
   transition: all 0.3s ease;
    border: var(--nav-border-width) solid #393939;
-    font-family: 'Mr Dodo';
 }
 
 .nav__links:hover {
@@ -345,6 +359,7 @@ body {
   transform: translateY(-50%);
   overflow: hidden;
   white-space: nowrap;
+  font-family: 'Mr DodoM';
 }
 
 .carousel-text {
@@ -354,9 +369,9 @@ body {
 
 .carousel-text span {
   padding-right: 3rem; /* espacio entre los textos */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Mr DodoM';
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   color: #393939;
   white-space: nowrap;
 }
@@ -405,19 +420,76 @@ body {
   z-index: 0;
 }
 
-.subtitle{
-    color: #393939;
-    font-size: 2rem;
-    margin-bottom: 25px;
-    -webkit-text-stroke: 2px #ffe7c1;
-}    
 
+    .subtitle {
+    font-size: 3rem; /* Aumentado el tamaño */
+    margin-bottom: 25px;
+    font-weight: 900;
+    color: #393939;
+    text-shadow:
+        -5px -5px 0 #ffe7c1,
+        -5px  0px 0 #ffe7c1,
+        -5px  5px 0 #ffe7c1,
+         0px -5px 0 #ffe7c1,
+         0px  5px 0 #ffe7c1,
+         5px -5px 0 #ffe7c1,
+         5px  0px 0 #ffe7c1,
+         5px  5px 0 #ffe7c1,
+
+        -4px -4px 0 #ffe7c1,
+        -4px  0px 0 #ffe7c1,
+        -4px  4px 0 #ffe7c1,
+         0px -4px 0 #ffe7c1,
+         0px  4px 0 #ffe7c1,
+         4px -4px 0 #ffe7c1,
+         4px  0px 0 #ffe7c1,
+         4px  4px 0 #ffe7c1,
+
+        -3px -3px 0 #ffe7c1,
+         3px -3px 0 #ffe7c1,
+        -3px  3px 0 #ffe7c1,
+         3px  3px 0 #ffe7c1,
+
+        -2px -2px 0 #ffe7c1,
+         2px -2px 0 #ffe7c1,
+        -2px  2px 0 #ffe7c1,
+         2px  2px 0 #ffe7c1;
+}
 .subtitle2{
     color: #393939;
-    font-size: 2rem;
+    font-family: 'Mr DodoM';
+    font-size: 3rem;
     margin-bottom: 25px;
-    -webkit-text-stroke: 1px #ffe7c1;
-} 
+     text-shadow:
+        -5px -5px 0 #ffe7c1,
+        -5px  0px 0 #ffe7c1,
+        -5px  5px 0 #ffe7c1,
+         0px -5px 0 #ffe7c1,
+         0px  5px 0 #ffe7c1,
+         5px -5px 0 #ffe7c1,
+         5px  0px 0 #ffe7c1,
+         5px  5px 0 #ffe7c1,
+
+        -4px -4px 0 #ffe7c1,
+        -4px  0px 0 #ffe7c1,
+        -4px  4px 0 #ffe7c1,
+         0px -4px 0 #ffe7c1,
+         0px  4px 0 #ffe7c1,
+         4px -4px 0 #ffe7c1,
+         4px  0px 0 #ffe7c1,
+         4px  4px 0 #ffe7c1,
+
+        -3px -3px 0 #ffe7c1,
+         3px -3px 0 #ffe7c1,
+        -3px  3px 0 #ffe7c1,
+         3px  3px 0 #ffe7c1,
+
+        -2px -2px 0 #ffe7c1,
+         2px -2px 0 #ffe7c1,
+        -2px  2px 0 #ffe7c1,
+         2px  2px 0 #ffe7c1;
+}
+
 
 .about__paragraph{
     line-height: 1.7;
@@ -1207,7 +1279,7 @@ background-position: 0 0,10px 10px;
 
   /* Carrusel */
   .carousel-text span {
-    font-size: 1.2rem;
+    font-size: 3.1rem;
   }
   /* .carousel-section {
     border-width: 2px;
@@ -1286,6 +1358,7 @@ img{
   flex-wrap: wrap;
   &>section{
     background:#ffe7c1;
+    font-size: 4.5rem;
     padding: 70px 50px;
     border-radius: 30px;
     border: 5px solid #8d8d8d;
