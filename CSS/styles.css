@@ -947,7 +947,7 @@ background-position: 0 0,10px 10px;
         justify-content: space-evenly;
         align-items: center;
         z-index: 100;
-        opacity: 0;
+        /* opacity: 1; */
         pointer-events: none;
         transition: 20s opacity;
     }
@@ -955,7 +955,7 @@ background-position: 0 0,10px 10px;
     .nav__link--show{
         display: flex!important;
         --show: block;
-        opacity:1 ;
+        opacity: 85%;
         pointer-events: unset;
     }
      .nav__link--show ~ .nav__icons{
