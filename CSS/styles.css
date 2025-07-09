@@ -1359,7 +1359,7 @@ img{
   &>section{
     background:#ffe7c1;
     font-size: 4.5rem;
-    padding: 70px 50px;
+    padding: 40px 10px;
     border-radius: 30px;
     border: 5px solid #8d8d8d;
     text-align: center;
@@ -1393,4 +1393,76 @@ img{
 .tp-up{
     position:relative;
     bottom:1rem;
+}
+
+/* Pantallas extremadamente pequeñas */
+@media (max-width: 390px) {
+  .hero__title {
+    max-width: 120px;
+    font-size: 1.2rem;
+  }
+
+  .hero__picture {
+    max-width: 120px;
+  }
+
+  .chem__picture {
+    max-width: 60px;
+    left: 60%;
+  }
+
+  .left__overlay {
+    max-width: 60px;
+    left: 10%;
+  }
+
+  .bone {
+    max-width: 25px;
+  }
+
+  .carousel-text span {
+    font-size: 0.9rem;
+  }
+
+  .text-container {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+
+  .tokenomics-text {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .articulo-sect {
+    gap: 1.5rem;
+    margin-bottom: 300px;
+  }
+
+  .articulo-sect > section {
+    font-size: 1.8rem;
+    padding: 30px 8px;
+    border-radius: 20px;
+  }
+
+  .content-container {
+    grid-template-columns: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .totachems {
+    max-height: 300px;
+  }
+
+  .svg-footer {
+    width: 50px;
+  }
+
+  .tp-up {
+    bottom: 0.5rem;
+  }
 }
