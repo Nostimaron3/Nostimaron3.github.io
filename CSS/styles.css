@@ -1394,6 +1394,7 @@ img{
     position:relative;
     bottom:1rem;
 }
+/* isas/*/
 
 /* Pantallas extremadamente pequeñas */
 @media (max-width: 390px) {
@@ -1407,13 +1408,13 @@ img{
   }
 
   .chem__picture {
-    max-width: 60px;
-    left: 60%;
+    max-width: 80px;
+    left: 66%;
   }
 
   .left__overlay {
-    max-width: 60px;
-    left: 10%;
+    max-width: 80px;
+    left: 20%;
   }
 
   .bone {
@@ -1465,4 +1466,8 @@ img{
   .tp-up {
     bottom: 0.5rem;
   }
+}
+
+html, body {
+  overflow-x: hidden;
 }
